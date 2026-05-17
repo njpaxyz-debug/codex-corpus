@@ -1,0 +1,91 @@
+{
+  "source_note": "Initial body-region schema for Resonance Planner / Codex Companion. Derived from Daily Practice Interface spec, Codex entries 001–010, and Frequency Library mappings.",
+  "regions": [
+    {
+      "id": "crown_head",
+      "label": "Crown / Head",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Crown / Sahasrara", "Third Eye"],
+      "codex_entries": ["004", "010"],
+      "frequency_links_hz": [172.06, 852, 963, 7.83],
+      "practice_tags": ["silent_meditation", "dream_incubation", "interoceptive_scan"],
+      "claim_boundary": "symbolic and practice-based mapping; not diagnostic"
+    },
+    {
+      "id": "throat_neck",
+      "label": "Throat / Neck",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Throat / Vishuddha"],
+      "codex_entries": ["003", "009"],
+      "frequency_links_hz": [141.27, 741, 100, 300],
+      "practice_tags": ["voice", "chanting", "vagal_phonation", "creative_expression"],
+      "claim_boundary": "practice association only"
+    },
+    {
+      "id": "heart_chest",
+      "label": "Heart / Chest",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Heart / Anahata"],
+      "codex_entries": ["001", "003", "009"],
+      "frequency_links_hz": [136.1, 221.23, 432, 639],
+      "practice_tags": ["om_chanting", "breath", "fascia_hydration", "relationship_meditation"],
+      "claim_boundary": "somatic reflection and symbolic correspondence; not treatment"
+    },
+    {
+      "id": "solar_core",
+      "label": "Solar Plexus / Core",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Solar Plexus / Manipura"],
+      "codex_entries": ["005", "010"],
+      "frequency_links_hz": [126.22, 528, 194.18],
+      "practice_tags": ["activation_breath", "core_awareness", "ecm_awareness"],
+      "claim_boundary": "practice association only; no organ claims"
+    },
+    {
+      "id": "pelvis_sacral",
+      "label": "Pelvis / Sacral",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Sacral / Svadhisthana"],
+      "codex_entries": ["006", "010"],
+      "frequency_links_hz": [210.42, 183.58, 285],
+      "practice_tags": ["fluid_awareness", "thixotropy", "lunar_attunement"],
+      "claim_boundary": "symbolic fluid/body-focus mapping only"
+    },
+    {
+      "id": "legs_root",
+      "label": "Legs / Root",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Root / Muladhara"],
+      "codex_entries": ["004", "008"],
+      "frequency_links_hz": [194.18, 144.72, 147.85, 174, 3],
+      "practice_tags": ["grounding", "standing_tensegrity", "load_and_listen"],
+      "claim_boundary": "grounding practice only; not biomechanical diagnosis"
+    },
+    {
+      "id": "arms_hands",
+      "label": "Arms / Hands",
+      "tap_target_min_px": 48,
+      "chakra_links": ["Heart / Anahata", "Throat / Vishuddha"],
+      "codex_entries": ["002", "009"],
+      "frequency_links_hz": [40, 741, 639],
+      "practice_tags": ["mechanotransduction_awareness", "pressure_map", "touch_as_signal"],
+      "claim_boundary": "sensory exploration only"
+    },
+    {
+      "id": "full_body_lines",
+      "label": "Full Body / Lines",
+      "tap_target_min_px": 48,
+      "chakra_links": ["All"],
+      "codex_entries": ["001", "003", "004", "007"],
+      "frequency_links_hz": [7.83, 136.1, 172.06, 432],
+      "practice_tags": ["body_scan", "line_tracing", "tensegrity_scan", "fascial_continuity"],
+      "claim_boundary": "map overlay, not anatomical equivalence claim"
+    }
+  ],
+  "moon_phase_modifiers": [
+    {"phase":"new", "body_logic":"viscera / inward attention", "laterality":null},
+    {"phase":"waxing", "body_logic":"growth / outward-building attention", "laterality":"right-side emphasis"},
+    {"phase":"full", "body_logic":"skin / superficial fascia / amplified sensation", "laterality":null},
+    {"phase":"waning", "body_logic":"release / integration attention", "laterality":"left-side emphasis"}
+  ]
+}
