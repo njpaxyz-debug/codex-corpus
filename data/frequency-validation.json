@@ -1,0 +1,191 @@
+{
+  "source_note": "Validation layer for Unified Frequency Library. This file separates measured/source-derived frequencies from symbolic, supplemental, contested, or app-derived correspondences.",
+  "status_values": [
+    "verified_in_source",
+    "supplemental_library_value",
+    "symbolic_correspondence",
+    "anecdotal_practice_use",
+    "contested_claim",
+    "medical_or_safety_boundary_required",
+    "app_generated_dynamic",
+    "missing_value_do_not_infer"
+  ],
+  "frequencies": [
+    {
+      "hz": 7.83,
+      "name": "Schumann resonance fundamental",
+      "category": "somatic_neurological / earth resonance",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with earth-resonance and grounding practices in this corpus.",
+      "avoid_wording": "Proves biological synchronization or treats circadian disorders."
+    },
+    {
+      "hz": 40,
+      "name": "40 Hz gamma / vibrotactile practice marker",
+      "category": "somatic_neurological",
+      "validation_status": ["supplemental_library_value", "medical_or_safety_boundary_required"],
+      "app_safe_wording": "Used as a practice marker for vibration, attention, and sensory comparison.",
+      "avoid_wording": "Treats neurological disease or guarantees gamma entrainment."
+    },
+    {
+      "hz": 126.22,
+      "name": "Sun",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Solar correspondence used for symbolic timing and practice selection.",
+      "avoid_wording": "Direct solar healing frequency."
+    },
+    {
+      "hz": 136.1,
+      "name": "Earth Year / OM",
+      "category": "celestial_resonance",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
+      "app_safe_wording": "Earth-year / OM correspondence used for centering and heart-focused practice.",
+      "avoid_wording": "Verified physiological heart-frequency treatment."
+    },
+    {
+      "hz": 141.27,
+      "name": "Mercury",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Mercury correspondence used for communication and throat-focused symbolic practice.",
+      "avoid_wording": "Guaranteed cognitive or speech effect."
+    },
+    {
+      "hz": 144.72,
+      "name": "Mars",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Mars correspondence used for activation and root/fire practice themes.",
+      "avoid_wording": "Produces strength or aggression changes."
+    },
+    {
+      "hz": 147.85,
+      "name": "Saturn",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Saturn correspondence used for structure, boundary, and grounding themes.",
+      "avoid_wording": "Treats structural or skeletal conditions."
+    },
+    {
+      "hz": 172.06,
+      "name": "Platonic Year",
+      "category": "celestial_resonance",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
+      "app_safe_wording": "Used as a long-cycle symbolic correspondence for meditation and crown/root integration.",
+      "avoid_wording": "Cosmic correction frequency."
+    },
+    {
+      "hz": 183.58,
+      "name": "Jupiter",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Jupiter correspondence used for expansion, sacral/ether, and reflective practice.",
+      "avoid_wording": "Guarantees growth, luck, or health effects."
+    },
+    {
+      "hz": 194.18,
+      "name": "Earth Day",
+      "category": "celestial_resonance",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
+      "app_safe_wording": "Earth-day correspondence used for vitality and grounding practice themes.",
+      "avoid_wording": "Directly increases vitality."
+    },
+    {
+      "hz": 210.42,
+      "name": "Moon Synodic",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Moon correspondence used for water, sacral, emotional-flow, and night-practice themes.",
+      "avoid_wording": "Controls hormones, fertility, or mood."
+    },
+    {
+      "hz": 221.23,
+      "name": "Venus",
+      "category": "celestial_resonance",
+      "validation_status": ["verified_in_source", "symbolic_correspondence"],
+      "app_safe_wording": "Venus correspondence used for heart, relationship, and aesthetic-practice themes.",
+      "avoid_wording": "Produces relationship or cardiac effects."
+    },
+    {
+      "hz": 285,
+      "name": "Solfeggio 285",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with tissue-field symbolism and restoration themes in Solfeggio practice systems.",
+      "avoid_wording": "Regenerates tissue."
+    },
+    {
+      "hz": 396,
+      "name": "Solfeggio 396",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with release/fear themes in Solfeggio practice systems.",
+      "avoid_wording": "Removes trauma or fear."
+    },
+    {
+      "hz": 417,
+      "name": "Solfeggio 417",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with transition and change themes in Solfeggio practice systems.",
+      "avoid_wording": "Forces life change or emotional reset."
+    },
+    {
+      "hz": 432,
+      "name": "432 Hz tuning association",
+      "category": "therapeutic / tuning",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Used as a calming musical tuning association in practice contexts.",
+      "avoid_wording": "Objectively superior or universally healing tuning."
+    },
+    {
+      "hz": 440,
+      "name": "Concert A",
+      "category": "reference_tuning",
+      "validation_status": ["verified_in_source"],
+      "app_safe_wording": "Reference tuning standard for comparison.",
+      "avoid_wording": "Harmful modern tuning claim."
+    },
+    {
+      "hz": 528,
+      "name": "Solfeggio 528",
+      "category": "solfeggio",
+      "validation_status": ["contested_claim", "anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Commonly associated with transformation in Solfeggio-based practice systems; biological repair claims are contested.",
+      "avoid_wording": "Repairs DNA as established fact."
+    },
+    {
+      "hz": 639,
+      "name": "Solfeggio 639",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with connection and relationship themes in Solfeggio practice systems.",
+      "avoid_wording": "Fixes relationships or cardiac issues."
+    },
+    {
+      "hz": 741,
+      "name": "Solfeggio 741",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with expression and clearing themes in Solfeggio practice systems.",
+      "avoid_wording": "Detoxifies the body."
+    },
+    {
+      "hz": 852,
+      "name": "Solfeggio 852",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with intuition themes in Solfeggio practice systems.",
+      "avoid_wording": "Opens psychic perception as fact."
+    },
+    {
+      "hz": 963,
+      "name": "Solfeggio 963",
+      "category": "solfeggio",
+      "validation_status": ["anecdotal_practice_use", "symbolic_correspondence"],
+      "app_safe_wording": "Associated with crown/pineal symbolism in Solfeggio practice systems.",
+      "avoid_wording": "Activates the pineal gland as fact."
+    }
+  ]
+}
