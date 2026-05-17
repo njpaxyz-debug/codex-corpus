@@ -1,5 +1,11 @@
 {
   "source_note": "Validation layer for Unified Frequency Library. This file separates measured/source-derived frequencies from symbolic, supplemental, contested, or app-derived correspondences.",
+  "metadata_version": "0.2.1",
+  "cross_refs": [
+    "data/planetary-correspondence-audit.json",
+    "data/astrology-correspondence-table.json",
+    "docs/PLANETARY_ASTRONOMY_AUDIT.md"
+  ],
   "status_values": [
     "verified_in_source",
     "supplemental_library_value",
@@ -8,7 +14,10 @@
     "contested_claim",
     "medical_or_safety_boundary_required",
     "app_generated_dynamic",
-    "missing_value_do_not_infer"
+    "missing_value_do_not_infer",
+    "higher_octave_choice",
+    "source_value_with_astronomy_caution",
+    "optional_modern_astrology_value"
   ],
   "frequencies": [
     {
@@ -31,22 +40,34 @@
       "hz": 126.22,
       "name": "Sun",
       "category": "celestial_resonance",
-      "validation_status": ["verified_in_source", "symbolic_correspondence"],
-      "app_safe_wording": "Solar correspondence used for symbolic timing and practice selection.",
-      "avoid_wording": "Direct solar healing frequency."
+      "planetary_audit_id": "sun_rotation_symbolic",
+      "validation_status": ["verified_in_source", "symbolic_correspondence", "source_value_with_astronomy_caution"],
+      "app_safe_wording": "Solar correspondence used for symbolic timing and practice selection. The Sun has differential rotation, so this is a source/corpus convention, not a single definitive solar physical constant.",
+      "avoid_wording": "Direct solar healing frequency or definitive physical emission from the Sun."
     },
     {
       "hz": 136.1,
       "name": "Earth Year / OM",
       "category": "celestial_resonance",
+      "planetary_audit_id": "earth_year",
       "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
       "app_safe_wording": "Earth-year / OM correspondence used for centering and heart-focused practice.",
       "avoid_wording": "Verified physiological heart-frequency treatment."
     },
     {
+      "hz": 140.25,
+      "name": "Pluto optional modern astrology correspondence",
+      "category": "celestial_resonance / dwarf_planet / modern_astrology",
+      "planetary_audit_id": "pluto_orbit_optional",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence", "optional_modern_astrology_value"],
+      "app_safe_wording": "Optional modern astrology correspondence for Pluto/Scorpio themes. Pluto is a dwarf planet and should not be presented as a classical planetary row.",
+      "avoid_wording": "Classical planet frequency or physical underworld transformation effect."
+    },
+    {
       "hz": 141.27,
       "name": "Mercury",
       "category": "celestial_resonance",
+      "planetary_audit_id": "mercury_orbit",
       "validation_status": ["verified_in_source", "symbolic_correspondence"],
       "app_safe_wording": "Mercury correspondence used for communication and throat-focused symbolic practice.",
       "avoid_wording": "Guaranteed cognitive or speech effect."
@@ -55,6 +76,7 @@
       "hz": 144.72,
       "name": "Mars",
       "category": "celestial_resonance",
+      "planetary_audit_id": "mars_orbit",
       "validation_status": ["verified_in_source", "symbolic_correspondence"],
       "app_safe_wording": "Mars correspondence used for activation and root/fire practice themes.",
       "avoid_wording": "Produces strength or aggression changes."
@@ -63,6 +85,7 @@
       "hz": 147.85,
       "name": "Saturn",
       "category": "celestial_resonance",
+      "planetary_audit_id": "saturn_orbit",
       "validation_status": ["verified_in_source", "symbolic_correspondence"],
       "app_safe_wording": "Saturn correspondence used for structure, boundary, and grounding themes.",
       "avoid_wording": "Treats structural or skeletal conditions."
@@ -71,14 +94,16 @@
       "hz": 172.06,
       "name": "Platonic Year",
       "category": "celestial_resonance",
+      "planetary_audit_id": "platonic_year",
       "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
-      "app_safe_wording": "Used as a long-cycle symbolic correspondence for meditation and crown/root integration.",
+      "app_safe_wording": "Used as a long-cycle symbolic correspondence for meditation and crown/root integration; corresponds to a 25,920-year convention, not a fixed universal constant.",
       "avoid_wording": "Cosmic correction frequency."
     },
     {
       "hz": 183.58,
       "name": "Jupiter",
       "category": "celestial_resonance",
+      "planetary_audit_id": "jupiter_orbit",
       "validation_status": ["verified_in_source", "symbolic_correspondence"],
       "app_safe_wording": "Jupiter correspondence used for expansion, sacral/ether, and reflective practice.",
       "avoid_wording": "Guarantees growth, luck, or health effects."
@@ -87,25 +112,55 @@
       "hz": 194.18,
       "name": "Earth Day",
       "category": "celestial_resonance",
+      "planetary_audit_id": "earth_day",
       "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
       "app_safe_wording": "Earth-day correspondence used for vitality and grounding practice themes.",
       "avoid_wording": "Directly increases vitality."
     },
     {
+      "hz": 207.36,
+      "name": "Uranus",
+      "category": "celestial_resonance / modern_astrology",
+      "planetary_audit_id": "uranus_orbit",
+      "validation_status": ["verified_in_source", "symbolic_correspondence", "higher_octave_choice"],
+      "app_safe_wording": "Uranus correspondence used for modern Aquarius, innovation, disruption, and systems themes. This uses a higher audible octave choice.",
+      "avoid_wording": "Scientifically proven nervous-system disruption or awakening frequency."
+    },
+    {
       "hz": 210.42,
       "name": "Moon Synodic",
       "category": "celestial_resonance",
+      "planetary_audit_id": "moon_synodic",
       "validation_status": ["verified_in_source", "symbolic_correspondence"],
-      "app_safe_wording": "Moon correspondence used for water, sacral, emotional-flow, and night-practice themes.",
-      "avoid_wording": "Controls hormones, fertility, or mood."
+      "app_safe_wording": "Moon correspondence derived from the mean synodic phase cycle, used for water, sacral, emotional-flow, and night-practice themes.",
+      "avoid_wording": "Controls hormones, fertility, or mood; or the Moon's sidereal orbit frequency."
+    },
+    {
+      "hz": 211.44,
+      "name": "Neptune",
+      "category": "celestial_resonance / modern_astrology",
+      "planetary_audit_id": "neptune_orbit",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence", "higher_octave_choice"],
+      "app_safe_wording": "Neptune correspondence used for modern Pisces, dream, oceanic, and dissolution themes. This uses a higher audible octave choice.",
+      "avoid_wording": "Scientifically proven dream, psychic, or fluid-body effect."
     },
     {
       "hz": 221.23,
       "name": "Venus",
       "category": "celestial_resonance",
-      "validation_status": ["verified_in_source", "symbolic_correspondence"],
-      "app_safe_wording": "Venus correspondence used for heart, relationship, and aesthetic-practice themes.",
+      "planetary_audit_id": "venus_orbit",
+      "validation_status": ["verified_in_source", "symbolic_correspondence", "higher_octave_choice"],
+      "app_safe_wording": "Venus correspondence used for heart, relationship, and aesthetic-practice themes. This uses a higher audible octave choice.",
       "avoid_wording": "Produces relationship or cardiac effects."
+    },
+    {
+      "hz": 227.43,
+      "name": "Moon Sidereal Optional",
+      "category": "celestial_resonance / optional_lunar_orbit",
+      "planetary_audit_id": "moon_sidereal_optional",
+      "validation_status": ["supplemental_library_value", "symbolic_correspondence"],
+      "app_safe_wording": "Optional lunar sidereal-orbit correspondence. Keep separate from the 210.42 Hz synodic phase value.",
+      "avoid_wording": "Replacement for Moon Synodic 210.42 Hz."
     },
     {
       "hz": 285,
