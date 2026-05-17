@@ -1,0 +1,100 @@
+{
+  "repository": "njpaxyz-debug/codex-corpus",
+  "migration_pass": "next-pass-2026-05-17",
+  "principle": "Preserve Drive-source provenance while converting long-form artifacts into repo-friendly Markdown, JSON, and CSV files.",
+  "sources": [
+    {
+      "title": "TechnoBioFasciaCodex v0.1 — Living Reference.pdf",
+      "drive_id": "1xwhXoJN8fETeVpSI1pKMtnYBXNWJd9o2",
+      "source_type": "pdf",
+      "repo_files": [
+        "docs/TBFC_V0_1_ENTRY_MAP.md",
+        "docs/NUMBERING_RECONCILIATION.md",
+        "codex/ENTRY_TEMPLATE.md",
+        "codex/ENTRY_STATUS.md",
+        "codex/entries/001-fascia.md",
+        "codex/entries/002-mechanotransduction.md",
+        "codex/entries/003-myofascial-meridians.md",
+        "codex/entries/004-tensegrity.md",
+        "codex/entries/005-extracellular-matrix.md",
+        "codex/entries/006-ground-substance.md",
+        "codex/entries/007-collagen-architecture.md",
+        "codex/entries/008-piezoelectricity.md",
+        "codex/entries/009-fascial-innervation.md",
+        "codex/entries/010-interstitium.md",
+        "data/codex-index.json"
+      ],
+      "migration_status": "partial_structured_extraction",
+      "known_gaps": [
+        "Full source PDF text is not yet segmented into all 45 planned entries.",
+        "Original planned IDs and written-entry IDs still require permanent policy decision."
+      ]
+    },
+    {
+      "title": "Unified Frequency Library — Cross-Engine Reference.xlsx",
+      "drive_id": "1GWcKwZdgqjVmf9m98sdTK_Ka2JOWBCNb",
+      "source_type": "spreadsheet",
+      "repo_files": [
+        "data/frequency-library.json",
+        "data/temporal-frequency-planner.json",
+        "data/instrument-frequency-practice-matrix.csv",
+        "data/source-cross-validation.csv"
+      ],
+      "migration_status": "structured_extraction_in_progress",
+      "known_gaps": [
+        "Per-sheet CSVs are not yet exhaustive for every workbook tab.",
+        "Need exact workbook export if a byte-faithful archive is required."
+      ]
+    },
+    {
+      "title": "Unified Creative Execution Plan - April 2026 (1).docx",
+      "drive_id": "1ShQZ0uYcPTByBNteJX2v3XYr3hzWsSDN",
+      "source_type": "docx",
+      "repo_files": [
+        "docs/UNIFIED_CREATIVE_EXECUTION_PLAN.md"
+      ],
+      "migration_status": "compact_markdown_extraction"
+    },
+    {
+      "title": "Daily Practice Interface — Design Specification.docx",
+      "drive_id": "14fPaYCF8x-AAUzLo--R6d_BRtfOQ_mtg",
+      "source_type": "docx",
+      "repo_files": [
+        "docs/DAILY_PRACTICE_INTERFACE_SPEC.md",
+        "data/body-region-schema.json",
+        "data/temporal-frequency-planner.json"
+      ],
+      "migration_status": "compact_markdown_plus_schema_extraction"
+    },
+    {
+      "title": "ARBP.txt",
+      "drive_id": "1ICo-Hk5Tv5mA50t4m9brmFUNPzRBeLZI",
+      "source_type": "text",
+      "repo_files": [
+        "docs/ARBP_FRAMEWORK.md",
+        "data/arbp-protocol-schema.json"
+      ],
+      "migration_status": "boundary_safe_framework_extraction",
+      "required_boundaries": [
+        "SPECULATIVE",
+        "EXPERIMENTAL",
+        "PERSONAL_LOG_ONLY",
+        "NOT_MEDICAL",
+        "NOT_WATER_SAFETY"
+      ]
+    },
+    {
+      "title": "Scientific Illustration Series — Style Guide (1).pdf",
+      "drive_id": "18wb3H-5MyQtT_lTb6H-BDA_bofxmmUDF",
+      "source_type": "pdf",
+      "repo_files": [
+        "docs/SCIENTIFIC_ILLUSTRATION_STYLE_GUIDE.md"
+      ],
+      "migration_status": "style_guide_markdown_extraction"
+    }
+  ],
+  "repo_boundary_policy_files": [
+    "docs/CLAIM_LABELS.md",
+    "docs/NUMBERING_RECONCILIATION.md"
+  ]
+}
