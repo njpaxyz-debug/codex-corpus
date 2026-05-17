@@ -1,0 +1,156 @@
+{
+  "metadata_version": "0.2.0",
+  "boundary_note": "Astrology correspondences are symbolic/traditional metadata. They are not astronomical facts and should not be presented as scientific claims.",
+  "zodiac_systems": [
+    {
+      "id": "tropical_western",
+      "description": "Seasonal 12-sign zodiac used by most modern Western astrology. Sign boundaries are tied to equinox/solstice framework, not exact IAU constellation boundaries."
+    },
+    {
+      "id": "sidereal_zodiac",
+      "description": "Star-referenced zodiac used in several traditions, including many Vedic astrology contexts. Requires ayanamsa selection."
+    },
+    {
+      "id": "iau_constellation_astronomy",
+      "description": "Astronomical constellation boundaries. Not the same as the 12 astrological sign system; Ophiuchus intersects the ecliptic astronomically."
+    }
+  ],
+  "signs": [
+    {
+      "sign": "Aries",
+      "modality": "Cardinal",
+      "element": "Fire",
+      "traditional_ruler": "Mars",
+      "modern_ruler": "Mars",
+      "body_symbolism_common": ["head", "face", "activation"],
+      "corpus_frequency_links_hz": [144.72, 194.18],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Taurus",
+      "modality": "Fixed",
+      "element": "Earth",
+      "traditional_ruler": "Venus",
+      "modern_ruler": "Venus",
+      "body_symbolism_common": ["throat", "neck", "voice"],
+      "corpus_frequency_links_hz": [221.23, 136.1],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Gemini",
+      "modality": "Mutable",
+      "element": "Air",
+      "traditional_ruler": "Mercury",
+      "modern_ruler": "Mercury",
+      "body_symbolism_common": ["arms", "hands", "lungs", "nervous exchange"],
+      "corpus_frequency_links_hz": [141.27, 741],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Cancer",
+      "modality": "Cardinal",
+      "element": "Water",
+      "traditional_ruler": "Moon",
+      "modern_ruler": "Moon",
+      "body_symbolism_common": ["chest", "stomach", "care", "fluid rhythm"],
+      "corpus_frequency_links_hz": [210.42, 432],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Leo",
+      "modality": "Fixed",
+      "element": "Fire",
+      "traditional_ruler": "Sun",
+      "modern_ruler": "Sun",
+      "body_symbolism_common": ["heart", "spine", "radiance"],
+      "corpus_frequency_links_hz": [126.22, 528],
+      "boundary_note": "Symbolic timing/body-focus layer only. Sun frequency requires rotation-convention caution."
+    },
+    {
+      "sign": "Virgo",
+      "modality": "Mutable",
+      "element": "Earth",
+      "traditional_ruler": "Mercury",
+      "modern_ruler": "Mercury",
+      "body_symbolism_common": ["abdomen", "digestion", "analysis", "refinement"],
+      "corpus_frequency_links_hz": [141.27, 285],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Libra",
+      "modality": "Cardinal",
+      "element": "Air",
+      "traditional_ruler": "Venus",
+      "modern_ruler": "Venus",
+      "body_symbolism_common": ["kidneys", "balance", "symmetry", "relationship"],
+      "corpus_frequency_links_hz": [221.23, 639],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Scorpio",
+      "modality": "Fixed",
+      "element": "Water",
+      "traditional_ruler": "Mars",
+      "modern_ruler": "Pluto",
+      "body_symbolism_common": ["pelvis", "depth", "elimination", "transformation"],
+      "corpus_frequency_links_hz": [144.72, 140.25, 210.42],
+      "boundary_note": "Pluto is modern/dwarf-planet symbolic metadata, not classical astrology or physical planetary frequency claim."
+    },
+    {
+      "sign": "Sagittarius",
+      "modality": "Mutable",
+      "element": "Fire",
+      "traditional_ruler": "Jupiter",
+      "modern_ruler": "Jupiter",
+      "body_symbolism_common": ["hips", "thighs", "expansion", "quest"],
+      "corpus_frequency_links_hz": [183.58],
+      "boundary_note": "Symbolic timing/body-focus layer only."
+    },
+    {
+      "sign": "Capricorn",
+      "modality": "Cardinal",
+      "element": "Earth",
+      "traditional_ruler": "Saturn",
+      "modern_ruler": "Saturn",
+      "body_symbolism_common": ["knees", "bones", "structure", "discipline"],
+      "corpus_frequency_links_hz": [147.85, 174],
+      "boundary_note": "Symbolic timing/body-focus layer only. No skeletal treatment claim."
+    },
+    {
+      "sign": "Aquarius",
+      "modality": "Fixed",
+      "element": "Air",
+      "traditional_ruler": "Saturn",
+      "modern_ruler": "Uranus",
+      "body_symbolism_common": ["ankles", "circulation", "systems", "innovation"],
+      "corpus_frequency_links_hz": [147.85, 207.36],
+      "boundary_note": "Traditional and modern rulerships should both be stored, not overwritten."
+    },
+    {
+      "sign": "Pisces",
+      "modality": "Mutable",
+      "element": "Water",
+      "traditional_ruler": "Jupiter",
+      "modern_ruler": "Neptune",
+      "body_symbolism_common": ["feet", "lymph/fluid symbolism", "dream", "dissolution"],
+      "corpus_frequency_links_hz": [183.58, 211.44],
+      "boundary_note": "Traditional and modern rulerships should both be stored, not overwritten."
+    }
+  ],
+  "planetary_rulerships": {
+    "traditional_western": {
+      "Sun": ["Leo"],
+      "Moon": ["Cancer"],
+      "Mercury": ["Gemini", "Virgo"],
+      "Venus": ["Taurus", "Libra"],
+      "Mars": ["Aries", "Scorpio"],
+      "Jupiter": ["Sagittarius", "Pisces"],
+      "Saturn": ["Capricorn", "Aquarius"]
+    },
+    "modern_western_additions": {
+      "Uranus": ["Aquarius"],
+      "Neptune": ["Pisces"],
+      "Pluto": ["Scorpio"]
+    }
+  }
+}
