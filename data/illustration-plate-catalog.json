@@ -1,0 +1,218 @@
+{
+  "series": {
+    "id": "anatomica_invisibilia",
+    "title": "Anatomica Invisibilia",
+    "subtitle": "The Invisible Anatomy",
+    "source_file": "Scientific Illustration Series — Style Guide (1).pdf",
+    "drive_id": "18wb3H-5MyQtT_lTb6H-BDA_bofxmmUDF",
+    "governance_rule": "The illustration series is the aesthetic source. Downstream tools inherit from this guide; they should not overwrite the visual standard unless the style guide itself is revised."
+  },
+  "palette": {
+    "anatomical_red": "#8B3A3A",
+    "fascia_gold": "#C4A35A",
+    "bone_white": "#F5F0E6",
+    "nerve_blue": "#3A5A8B",
+    "visceral_purple": "#6B3A6B",
+    "ground_substance_amber": "#D4A034",
+    "living_green": "#4A6B3A",
+    "meridian_cyan": "#2A8B8B",
+    "frequency_violet": "#5A3A8B",
+    "inflammation_orange": "#C45A2A",
+    "dark_sepia": "#3A2A1A",
+    "parchment_gradient": ["#F5F0E6", "#E8DCC8"]
+  },
+  "plates": [
+    {
+      "id": "plate_i_fascial_architecture_composite",
+      "roman": "I",
+      "title": "Fascial Architecture Composite",
+      "status": "completed_foundation_plate",
+      "subject": "Cross-section of layered fascia showing superficial, deep, and visceral layers as horizontal stratigraphy.",
+      "dominant_colors": ["fascia_gold", "ground_substance_amber", "anatomical_red"],
+      "codex_links": ["001", "005", "007"],
+      "rendering_focus": ["collagen_fibers", "elastin", "ground_substance", "blood_vessels", "fasciacytes"],
+      "orientation": "horizontal_stratigraphy"
+    },
+    {
+      "id": "plate_ii_meridian_pathway_bloom",
+      "roman": "II",
+      "title": "Meridian Pathway Bloom",
+      "status": "completed_foundation_plate",
+      "subject": "Meditative human figure with botanical flowering along heart, liver, and lung meridian lines.",
+      "dominant_colors": ["meridian_cyan", "living_green", "nerve_blue"],
+      "codex_links": ["003"],
+      "rendering_focus": ["meridian_lines", "botanical_elements", "acupuncture_points"],
+      "orientation": "full_figure_frontal"
+    },
+    {
+      "id": "plate_iii_fascia_nerve_interface",
+      "roman": "III",
+      "title": "Fascia-Nerve Interface",
+      "status": "completed_foundation_plate",
+      "subject": "Microscopic view of nerve fibers intermingling with fascia layers.",
+      "dominant_colors": ["nerve_blue", "fascia_gold", "anatomical_red"],
+      "codex_links": ["002", "009"],
+      "rendering_focus": ["pacinian_corpuscles", "ruffini_endings", "free_nerve_endings", "myelinated_fibers"],
+      "orientation": "microscopic_zoom"
+    },
+    {
+      "id": "plate_iv_tensegrity_cell_architecture",
+      "roman": "IV",
+      "title": "Tensegrity Cell Architecture",
+      "status": "completed_foundation_plate",
+      "subject": "A single cell rendered as a tensegrity structure of tension cables, compression struts, and suspended nucleus.",
+      "dominant_colors": ["nerve_blue", "fascia_gold", "visceral_purple"],
+      "codex_links": ["002", "004"],
+      "rendering_focus": ["actin_filaments", "microtubules", "integrins", "focal_adhesions", "nucleus"],
+      "orientation": "transparent_cutaway"
+    },
+    {
+      "id": "plate_v_extracellular_matrix_landscape",
+      "roman": "V",
+      "title": "Extracellular Matrix Landscape",
+      "status": "completed_foundation_plate",
+      "subject": "The extracellular matrix rendered as a microscopic terrain with collagen formations, proteoglycan structures, fibroblasts, and laminin sheets.",
+      "dominant_colors": ["fascia_gold", "ground_substance_amber", "bone_white"],
+      "codex_links": ["005", "007"],
+      "rendering_focus": ["collagen_hierarchy", "fibronectin", "laminin", "fibroblasts"],
+      "orientation": "landscape"
+    },
+    {
+      "id": "plate_vi_ground_substance_liquid_crystal",
+      "roman": "VI",
+      "title": "Ground Substance — The Liquid Crystal",
+      "status": "completed_foundation_plate",
+      "subject": "Split plate showing gel-to-sol thixotropic transition in ground substance.",
+      "dominant_colors": ["ground_substance_amber", "meridian_cyan", "frequency_violet"],
+      "codex_links": ["006", "010"],
+      "rendering_focus": ["hyaluronic_acid", "proteoglycans", "gag_branches", "hydration_shells", "streaming_potentials"],
+      "orientation": "split_state_comparison"
+    },
+    {
+      "id": "plate_vii_biotensegrity_full_body",
+      "roman": "VII",
+      "title": "Biotensegrity — Full Body",
+      "status": "planned",
+      "subject": "Skeleton as floating compression struts suspended in a continuous fascial tension web.",
+      "codex_links": ["004"],
+      "orientation": "full_body"
+    },
+    {
+      "id": "plate_viii_piezoelectric_bone",
+      "roman": "VIII",
+      "title": "Piezoelectric Bone",
+      "status": "planned",
+      "subject": "Bone crystal structure generating electrical charge under mechanical compression.",
+      "codex_links": ["008"],
+      "orientation": "micro_to_macro_bone_cutaway"
+    },
+    {
+      "id": "plate_ix_interstitium",
+      "roman": "IX",
+      "title": "The Interstitium",
+      "status": "planned",
+      "subject": "Fluid-filled network between tissues rendered as subterranean lake system.",
+      "codex_links": ["010"],
+      "orientation": "fluid_landscape"
+    },
+    {
+      "id": "plate_x_myofascial_meridians_superficial_back_line",
+      "roman": "X",
+      "title": "Myofascial Meridians — Superficial Back Line",
+      "status": "planned",
+      "subject": "Continuous fascial line from plantar fascia to scalp fascia.",
+      "codex_links": ["003"],
+      "orientation": "posterior_full_body_line"
+    },
+    {
+      "id": "plate_xi_myofascial_meridians_superficial_front_line",
+      "roman": "XI",
+      "title": "Myofascial Meridians — Superficial Front Line",
+      "status": "planned",
+      "subject": "Anterior continuous fascial line in frontal view with anatomical stations.",
+      "codex_links": ["003"],
+      "orientation": "anterior_full_body_line"
+    },
+    {
+      "id": "plate_xii_vagal_nerve_wanderer",
+      "roman": "XII",
+      "title": "Vagal Nerve — The Wanderer",
+      "status": "planned",
+      "subject": "Full vagus nerve pathway from brainstem to gut rendered as a river system.",
+      "codex_links": ["009"],
+      "orientation": "brainstem_to_viscera"
+    },
+    {
+      "id": "plate_xiii_dermatome_map",
+      "roman": "XIII",
+      "title": "Dermatome Map",
+      "status": "planned",
+      "subject": "Sensory nerve territories rendered as landscape provinces.",
+      "codex_links": ["009"],
+      "orientation": "territorial_body_map"
+    },
+    {
+      "id": "plate_xiv_trigger_point_topography",
+      "roman": "XIV",
+      "title": "Trigger Point Topography",
+      "status": "planned",
+      "subject": "Referred pain patterns as weather maps.",
+      "codex_links": ["009"],
+      "orientation": "weather_map_overlay"
+    },
+    {
+      "id": "plate_xv_fascial_force_transmission",
+      "roman": "XV",
+      "title": "Fascial Force Transmission",
+      "status": "planned",
+      "subject": "Mechanical pull at the ankle traced through the continuous fascial network to the skull.",
+      "codex_links": ["001", "003", "007"],
+      "orientation": "vector_flow_body_map"
+    },
+    {
+      "id": "plate_xvi_acoustic_resonance_in_tissue",
+      "roman": "XVI",
+      "title": "Acoustic Resonance in Tissue",
+      "status": "planned",
+      "subject": "Sound wave propagation through different tissue densities.",
+      "codex_links": ["002", "008", "009"],
+      "orientation": "wave_physics_cross_section"
+    },
+    {
+      "id": "plate_xvii_schumann_resonance_biological_clocks",
+      "roman": "XVII",
+      "title": "Schumann Resonance and Biological Clocks",
+      "status": "planned",
+      "subject": "Earth's 7.83 Hz electromagnetic pulse and biological timing metaphor.",
+      "codex_links": ["010"],
+      "orientation": "planet_body_clock_overlay"
+    },
+    {
+      "id": "plate_xviii_chakra_fascia_overlay",
+      "roman": "XVIII",
+      "title": "The Chakra-Fascia Overlay",
+      "status": "planned",
+      "subject": "Energy centers mapped onto fascial convergence zones.",
+      "codex_links": ["003"],
+      "orientation": "symbolic_anatomy_overlay"
+    },
+    {
+      "id": "plate_xix_dna_helix_as_tensegrity",
+      "roman": "XIX",
+      "title": "DNA Helix as Tensegrity",
+      "status": "planned",
+      "subject": "Double helix as nanoscale tensegrity structure.",
+      "codex_links": ["004", "008"],
+      "orientation": "molecular_architecture"
+    },
+    {
+      "id": "plate_xx_complete_energy_body",
+      "roman": "XX",
+      "title": "The Complete Energy Body",
+      "status": "planned",
+      "subject": "Capstone composite unifying fascia, meridians, tensegrity, frequency, and botanical systems.",
+      "codex_links": ["001", "003", "004", "006", "007", "008", "009", "010"],
+      "orientation": "capstone_composite"
+    }
+  ]
+}
