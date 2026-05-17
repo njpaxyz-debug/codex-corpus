@@ -1,0 +1,78 @@
+{
+  "source_note": "Initial app-facing Codex index extracted from TechnoBioFasciaCodex v0.1 and April 2026 sprint notes. Full entry text migration is pending.",
+  "numbering_warning": "Original 45-entry map and later written-entry sequence diverge. This index preserves the six-entry sequence used by the Resonance Companion MVP.",
+  "entries": [
+    {
+      "id": "001",
+      "slug": "fascia",
+      "title": "Fascia: The Body's Undernet",
+      "tags": ["TBFC", "MM", "SCI"],
+      "evidence_labels": ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"],
+      "core_thesis": "Fascia is the continuous tensional network that gives every other system its shape, its address, and its voice.",
+      "body_regions": ["heart", "thorax", "full_body"],
+      "frequency_links_hz": [136.1, 432],
+      "practice_gate": "Fascial hydration: slow joint circles, warm breath, gentle tissue glide, no forcing.",
+      "status": "migrated summary"
+    },
+    {
+      "id": "002",
+      "slug": "mechanotransduction",
+      "title": "Mechanotransduction: How Touch Becomes Signal",
+      "tags": ["TBFC", "ARG", "MM"],
+      "evidence_labels": ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"],
+      "core_thesis": "Mechanical force becomes cellular information through receptors, cytoskeleton, and signaling cascades.",
+      "body_regions": ["arms", "palms", "local_tissue"],
+      "frequency_links_hz": [40],
+      "practice_gate": "40 Hz orientation: brief soft vibration or palm pressure, then stillness to compare sensation.",
+      "status": "migrated summary"
+    },
+    {
+      "id": "003",
+      "slug": "myofascial-meridians",
+      "title": "Myofascial Meridians: Where Anatomy Trains Meet Energy Lines",
+      "tags": ["TBFC", "MM", "RPG", "SCI"],
+      "evidence_labels": ["ANATOMICAL", "TRADITIONAL", "PRACTICE_BASED"],
+      "core_thesis": "Different body maps can be overlaid as navigational systems without pretending they are identical.",
+      "body_regions": ["throat", "full_body", "body_lines"],
+      "frequency_links_hz": [210.42, 741],
+      "practice_gate": "Trace one body line slowly with attention, then journal the region that felt most available.",
+      "status": "migrated summary"
+    },
+    {
+      "id": "004",
+      "slug": "tensegrity",
+      "title": "Tensegrity: The Architecture of Aliveness",
+      "tags": ["TBFC", "SCI", "RPG"],
+      "evidence_labels": ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"],
+      "core_thesis": "Living posture behaves less like stacked blocks and more like compression elements suspended in tension.",
+      "body_regions": ["head", "legs", "spine", "full_body"],
+      "frequency_links_hz": [172.06, 3],
+      "practice_gate": "Stand tall with soft knees; imagine bones floating inside a tension web.",
+      "status": "migrated summary"
+    },
+    {
+      "id": "005",
+      "slug": "extracellular-matrix",
+      "title": "Extracellular Matrix: The Body's Living Scaffold",
+      "tags": ["TBFC", "ARG", "SCI"],
+      "evidence_labels": ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"],
+      "core_thesis": "The ECM is a biochemical and mechanical field surrounding cells.",
+      "body_regions": ["core", "skin", "superficial_fascia"],
+      "frequency_links_hz": [432, 285],
+      "practice_gate": "Gently lift and roll superficial skin/fascia where comfortable; compare texture before and after.",
+      "status": "migrated summary"
+    },
+    {
+      "id": "006",
+      "slug": "ground-substance",
+      "title": "Ground Substance: The Body's Liquid Crystal",
+      "tags": ["TBFC", "ARG", "RPG"],
+      "evidence_labels": ["BIOPHYSICAL", "PRACTICE_BASED"],
+      "core_thesis": "The gel-like matrix of fascia changes state with hydration, temperature, load, and time.",
+      "body_regions": ["pelvis", "local_tissue", "fluid_matrix"],
+      "frequency_links_hz": [285, 528],
+      "practice_gate": "Place a soft ball under a comfortable area for 60–90 seconds; wait for melting rather than forcing.",
+      "status": "migrated summary"
+    }
+  ]
+}
