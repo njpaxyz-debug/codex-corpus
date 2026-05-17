@@ -1,0 +1,27 @@
+source_array_or_system,entry,frequency_hz,status,source_context,repo_action
+PLANETS,Sol / Sun,126.22,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Luna / Moon,210.42,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Mercury,141.27,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Venus,221.23,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Mars,144.72,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Jupiter,183.58,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Saturn,147.85,Verified in source,Astrolabe / planetary array,Included in frequency library
+PLANETS,Uranus,207.36,Verified in source,Astrolabe / planetary array,Pending full library expansion
+SIGILS,Flame,396,Verified in source,Solfeggio / symbolic sigil mapping,Included with anecdotal boundary
+SIGILS,Water,417,Verified in source,Solfeggio / symbolic sigil mapping,Included with anecdotal boundary
+SIGILS,Earth,528,Verified in source,Solfeggio / symbolic sigil mapping,Included with contested boundary
+SIGILS,Air,639,Verified in source,Solfeggio / symbolic sigil mapping,Included with anecdotal boundary
+SIGILS,Spirit,741,Verified in source,Solfeggio / symbolic sigil mapping,Included with anecdotal boundary
+SIGILS,Void,852,Verified in source,Solfeggio / symbolic sigil mapping,Included with anecdotal boundary
+SIGILS,Nexus,963,Verified in source,Solfeggio / symbolic sigil mapping,Included with anecdotal boundary
+SIGILS,Spark,285,Verified in source,Solfeggio / symbolic sigil mapping,Included with theoretical boundary
+SIGILS,Axis,174,Verified in source,Solfeggio / symbolic sigil mapping,Included with limited-evidence boundary
+SIGILS,Prism,528,Verified in source,Solfeggio / symbolic sigil mapping,Duplicate frequency association
+SIGILS,Gate,639,Verified in source,Solfeggio / symbolic sigil mapping,Duplicate frequency association
+SIGILS,Weave,741,Verified in source,Solfeggio / symbolic sigil mapping,Duplicate frequency association
+Digital Altar,All elements,Variable,AI-generated per session,Gemini/API dynamic generation,Not hard-coded as stable source
+Library Only,Neptune,211.44,Supplemental / not in source,Not in PLANETS array,Pending review
+Library Only,Pluto,,Missing / no value,Not in source,Do not infer value
+Library Only,Earth Year,136.1,Supplemental / discrepancy,Not in PLANETS array but used in cosmic octave,Included with provenance note
+Library Only,Earth Day,194.18,Supplemental,Not in PLANETS array,Included with provenance note
+Library Only,Platonic Year,172.06,Supplemental,Not in PLANETS array,Included with provenance note
