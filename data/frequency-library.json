@@ -1,0 +1,66 @@
+{
+  "source": {
+    "title": "Unified Frequency Library — Cross-Engine Reference.xlsx",
+    "drive_id": "1GWcKwZdgqjVmf9m98sdTK_Ka2JOWBCNb",
+    "migrated_status": "initial structured extraction",
+    "notes": "Source workbook contains multiple sheets: Celestial Resonance Table, Solfeggio & Therapeutic Frequencies, Somatic & Neurological Frequencies, Instrument-Frequency-Practice Matrix, Engine Convergence Matrix, Temporal Frequency Planner, and Source Cross-Validation."
+  },
+  "engine_key": {
+    "MM": "Meridian Maps",
+    "ARG": "Acoustic Resonance Generators",
+    "RPG": "RPG Meditative Solar-Lunar Practice",
+    "TBFC": "TechnoBioFasciaCodex",
+    "SCI": "Scientific Illustration Series"
+  },
+  "celestial_resonance": [
+    {"body":"Earth Year","astronomical_hz":0.00003169,"audible_hz":136.10,"note":"C#","cent_deviation":"+32","chakra":"Heart / Anahata","element":"Earth / Terra","mantra":"OM","zodiac":"Taurus / Libra","color":"Green-Blue","emotional_quality":"Grounding, centering","engine_tags":["ARG","RPG"]},
+    {"body":"Earth Day","astronomical_hz":0.00001157,"audible_hz":194.18,"note":"G","cent_deviation":"+1","chakra":"Muladhara / Root","element":"Fire","mantra":"LAM","zodiac":"Aries","color":"Orange-Red","emotional_quality":"Vitality, dynamism","engine_tags":["ARG","RPG"]},
+    {"body":"Moon (Synodic)","astronomical_hz":0.0000039,"audible_hz":210.42,"note":"G#","cent_deviation":"+24","chakra":"Sacral / Svadhisthana","element":"Water","mantra":"VAM","zodiac":"Cancer","color":"Orange","emotional_quality":"Emotional flow, intuition","engine_tags":["ARG","RPG","MM"]},
+    {"body":"Sun","astronomical_hz":0.00003169,"audible_hz":126.22,"note":"B / C","cent_deviation":"-32","chakra":"Solar Plexus / Manipura","element":"Fire","mantra":"RAM","zodiac":"Leo","color":"Yellow-Gold","emotional_quality":"Willpower, identity","engine_tags":["ARG","RPG"]},
+    {"body":"Mercury","astronomical_hz":0.00000149,"audible_hz":141.27,"note":"C# / D","cent_deviation":"+12","chakra":"Throat / Vishuddha","element":"Air","mantra":"HAM","zodiac":"Gemini / Virgo","color":"Blue","emotional_quality":"Communication, analysis","engine_tags":["ARG","RPG"]},
+    {"body":"Venus","astronomical_hz":0.00000056,"audible_hz":221.23,"note":"A","cent_deviation":"+9","chakra":"Heart / Anahata","element":"Earth","mantra":"YAM","zodiac":"Taurus / Libra","color":"Green","emotional_quality":"Love, harmony","engine_tags":["ARG","RPG"]},
+    {"body":"Mars","astronomical_hz":0.00000017,"audible_hz":144.72,"note":"D","cent_deviation":"+17","chakra":"Root / Muladhara","element":"Fire","mantra":null,"zodiac":"Aries / Scorpio","color":"Red","emotional_quality":"Drive, courage","engine_tags":["ARG","RPG"]},
+    {"body":"Jupiter","astronomical_hz":0.00000003,"audible_hz":183.58,"note":"F#","cent_deviation":"-19","chakra":"Sacral / Svadhisthana","element":"Ether","mantra":null,"zodiac":"Sagittarius / Pisces","color":"Violet-Blue","emotional_quality":"Expansion, wisdom","engine_tags":["ARG","RPG"]},
+    {"body":"Saturn","astronomical_hz":0.00000001,"audible_hz":147.85,"note":"D","cent_deviation":"+36","chakra":"Root / Muladhara","element":"Earth","mantra":null,"zodiac":"Capricorn / Aquarius","color":"Indigo","emotional_quality":"Structure, discipline","engine_tags":["ARG","RPG"]},
+    {"body":"Platonic Year","astronomical_hz":0.0000000000005,"audible_hz":172.06,"note":"F","cent_deviation":"-8","chakra":"Crown / Sahasrara","element":"Ether","mantra":"AUM","zodiac":"All Signs","color":"Violet / White","emotional_quality":"Cosmic unity","engine_tags":["ARG","RPG","MM"]}
+  ],
+  "solfeggio_and_therapeutic": [
+    {"hz":174,"name":"Foundation Tone","solfeggio":null,"claimed_effect":"Pain reduction, security","chakra":"Root","scientific_basis":"Limited peer review","practice_gate":"Grounding drone, body scan","engine_tags":["ARG","TBFC"],"evidence_labels":["ANECDOTAL","PRACTICE_BASED"]},
+    {"hz":285,"name":"Quantum Cognition","solfeggio":null,"claimed_effect":"Tissue healing, energy field","chakra":"Sacral","scientific_basis":"Theoretical","practice_gate":"Fascial hydration accompaniment","engine_tags":["ARG","TBFC"],"evidence_labels":["SPECULATIVE","PRACTICE_BASED"]},
+    {"hz":396,"name":"Liberating","solfeggio":"UT","claimed_effect":"Liberating guilt & fear","chakra":"Root","scientific_basis":"Anecdotal","practice_gate":"Fear-release breathwork","engine_tags":["ARG","RPG"],"evidence_labels":["TRADITIONAL","ANECDOTAL"]},
+    {"hz":417,"name":"Facilitating Change","solfeggio":"RE","claimed_effect":"Facilitating change & transition","chakra":"Sacral","scientific_basis":"Anecdotal","practice_gate":"Transition ritual","engine_tags":["ARG","RPG"],"evidence_labels":["TRADITIONAL","ANECDOTAL"]},
+    {"hz":432,"name":"Verdi's A","solfeggio":null,"claimed_effect":"Natural tuning, relaxation","chakra":"Heart","scientific_basis":"Some EEG studies show relaxation","practice_gate":"Instrument tuning reference","engine_tags":["ARG","TBFC"],"evidence_labels":["PRACTICE_BASED","ANECDOTAL"]},
+    {"hz":440,"name":"Concert A","solfeggio":null,"claimed_effect":"Standard tuning reference","chakra":null,"scientific_basis":"Industry standard","practice_gate":"Reference only","engine_tags":["ARG"],"evidence_labels":["REFERENCE"]},
+    {"hz":528,"name":"Transformation","solfeggio":"MI","claimed_effect":"Transformation / DNA repair","chakra":"Solar Plexus","scientific_basis":"Contested; some in-vitro studies","practice_gate":"Morning activation tone","engine_tags":["ARG","RPG","TBFC"],"evidence_labels":["CONTESTED","TRADITIONAL"]},
+    {"hz":639,"name":"Connection","solfeggio":"FA","claimed_effect":"Connection & relationships","chakra":"Heart","scientific_basis":"Anecdotal","practice_gate":"Heart-opening meditation","engine_tags":["ARG","RPG"],"evidence_labels":["TRADITIONAL","ANECDOTAL"]},
+    {"hz":741,"name":"Expression","solfeggio":"SOL","claimed_effect":"Expression & solutions","chakra":"Throat","scientific_basis":"Anecdotal","practice_gate":"Creative unblocking","engine_tags":["ARG","RPG"],"evidence_labels":["TRADITIONAL","ANECDOTAL"]},
+    {"hz":852,"name":"Intuition","solfeggio":"LA","claimed_effect":"Returning to spiritual order","chakra":"Third Eye","scientific_basis":"Anecdotal","practice_gate":"Intuition practice","engine_tags":["ARG","RPG"],"evidence_labels":["TRADITIONAL","ANECDOTAL"]},
+    {"hz":963,"name":"Pineal","solfeggio":"SI","claimed_effect":"Pineal gland activation","chakra":"Crown","scientific_basis":"Anecdotal","practice_gate":"Crown meditation","engine_tags":["ARG","RPG"],"evidence_labels":["TRADITIONAL","ANECDOTAL"]}
+  ],
+  "somatic_neurological": [
+    {"range_hz":"0.5–3","system":"Brain / EEG","mechanism":"Neural oscillation","receptor_type":null,"tissue_response":"Deep sleep, healing","practice_application":"Sleep meditation, recovery ritual","codex_ref":"Entry 025","engine_tags":["RPG","TBFC"]},
+    {"range_hz":"4–7","system":"Brain / EEG","mechanism":"Neural oscillation","receptor_type":null,"tissue_response":"Meditation, creativity","practice_application":"Deep meditation, dream work","codex_ref":"Entry 025","engine_tags":["RPG","TBFC"]},
+    {"range_hz":"7.83","system":"Earth / Ionosphere","mechanism":"Schumann resonance","receptor_type":null,"tissue_response":"Circadian regulation, calm","practice_application":"Earth-connection practice","codex_ref":"Entry 026","engine_tags":["ARG","RPG","TBFC","MM"]},
+    {"range_hz":"8–13","system":"Brain / EEG","mechanism":"Neural oscillation","receptor_type":null,"tissue_response":"Relaxed awareness","practice_application":"Flow state induction","codex_ref":"Entry 025","engine_tags":["RPG","TBFC"]},
+    {"range_hz":"14–30","system":"Brain / EEG","mechanism":"Neural oscillation","receptor_type":null,"tissue_response":"Active thinking, focus","practice_application":"Task concentration","codex_ref":"Entry 025","engine_tags":["RPG","TBFC"]},
+    {"range_hz":"30–100","system":"Brain / EEG","mechanism":"Neural oscillation","receptor_type":null,"tissue_response":"Higher cognition, binding","practice_application":"Peak experience, insight","codex_ref":"Entry 025","engine_tags":["RPG","TBFC"]},
+    {"range_hz":"40","system":"Fascia / Nerve","mechanism":"Vibrotactile","receptor_type":"Pacinian corpuscles","tissue_response":"Mechanoreceptor activation, proprioceptive reset","practice_application":"Vibration therapy, fascial release","codex_ref":"Entry 002","engine_tags":["ARG","TBFC","MM"]},
+    {"range_hz":"80–250","system":"Bone / Connective","mechanism":"Mechanical vibration","receptor_type":"Osteocytes, fibroblasts","tissue_response":"Bone density, collagen synthesis","practice_application":"Whole-body vibration practice","codex_ref":"Entry 008","engine_tags":["ARG","TBFC"]},
+    {"range_hz":"100–300","system":"Vocal / Thoracic","mechanism":"Phonation","receptor_type":"Vagal afferents","tissue_response":"Vagal tone increase, HRV improvement","practice_application":"Chanting, humming, toning","codex_ref":"Entry 027","engine_tags":["ARG","TBFC","MM"]},
+    {"range_hz":"250–500","system":"Tissue / Acoustic","mechanism":"Sound propagation","receptor_type":"Various mechanoreceptors","tissue_response":"Variable tissue response by density","practice_application":"Singing bowl application","codex_ref":"Entry 022","engine_tags":["ARG","TBFC"]}
+  ],
+  "convergence_matrix": [
+    {"hz":7.83,"score":5,"bridge_potential":"High","notes":"Schumann resonance; universal bridge frequency"},
+    {"hz":40,"score":4,"bridge_potential":"High","notes":"Pacinian activation; gamma entrainment overlap"},
+    {"hz":136.1,"score":4,"bridge_potential":"High","notes":"Earth Year / OM fork; planetary-somatic bridge"},
+    {"hz":528,"score":4,"bridge_potential":"High","notes":"MI solfeggio; most-cited healing frequency"},
+    {"hz":172.06,"score":4,"bridge_potential":"High","notes":"Platonic Year; crown/cosmic unity tone"},
+    {"hz":210.42,"score":3,"bridge_potential":"High","notes":"Synodic Moon; emotional / water element bridge"},
+    {"hz":432,"score":3,"bridge_potential":"Medium","notes":"Verdi A; relaxation tuning reference"},
+    {"hz":194.18,"score":3,"bridge_potential":"Medium","notes":"Earth Day; vitality / root activation"},
+    {"hz":126.22,"score":3,"bridge_potential":"Medium","notes":"Sun frequency; solar plexus alignment"},
+    {"hz":144.72,"score":3,"bridge_potential":"Medium","notes":"Mars; drive and root energy"},
+    {"hz":396,"score":3,"bridge_potential":"Medium","notes":"UT solfeggio; fear-release protocol"},
+    {"hz":852,"score":3,"bridge_potential":"Medium","notes":"LA solfeggio; third eye / intuition"}
+  ]
+}
