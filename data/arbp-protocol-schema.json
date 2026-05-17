@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARBP Protocol Log",
+  "description": "Schema for speculative Aqua-Resonance Bio-Programming experiment logs. Personal research use only; not medical, purification, treatment, or safety validation.",
+  "type": "object",
+  "required": ["protocol_id", "date", "boundary_label", "sample", "control", "inputs", "measurements", "observations"],
+  "properties": {
+    "protocol_id": {"type": "string"},
+    "date": {"type": "string", "format": "date"},
+    "title": {"type": "string"},
+    "boundary_label": {
+      "type": "array",
+      "items": {"enum": ["SPECULATIVE", "EXPERIMENTAL", "PERSONAL_LOG_ONLY", "NOT_MEDICAL", "NOT_WATER_SAFETY"]},
+      "default": ["SPECULATIVE", "EXPERIMENTAL", "PERSONAL_LOG_ONLY", "NOT_MEDICAL", "NOT_WATER_SAFETY"]
+    },
+    "sample": {
+      "type": "object",
+      "properties": {
+        "sample_id": {"type": "string"},
+        "water_source": {"type": "string"},
+        "volume_ml": {"type": "number"},
+        "container_material": {"type": "string"},
+        "temperature_c_initial": {"type": "number"},
+        "purity_notes": {"type": "string"}
+      }
+    },
+    "control": {
+      "type": "object",
+      "properties": {
+        "control_sample_id": {"type": "string"},
+        "control_mode": {"enum": ["control_and_treated", "treated_only", "observation_only"]},
+        "blinding_notes": {"type": "string"}
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "external_frequencies_hz": {"type": "array", "items": {"type": "number"}},
+        "external_amplitude_notes": {"type": "string"},
+        "external_duration_seconds": {"type": "number"},
+        "vocal_phrase": {"type": "string"},
+        "vocal_frequency_hz": {"type": "number"},
+        "vocal_duration_seconds": {"type": "number"},
+        "phonetic_precision_notes": {"type": "string"},
+        "harmonic_richness_notes": {"type": "string"},
+        "sequence_steps": {"type": "array", "items": {"type": "string"}},
+        "repetitions": {"type": "integer"},
+        "intent_statement": {"type": "string"},
+        "intent_coherence_self_rating_0_10": {"type": "number", "minimum": 0, "maximum": 10}
+      }
+    },
+    "measurements": {
+      "type": "object",
+      "properties": {
+        "ph_before": {"type": "number"},
+        "ph_after": {"type": "number"},
+        "orp_before_mv": {"type": "number"},
+        "orp_after_mv": {"type": "number"},
+        "conductivity_before": {"type": "number"},
+        "conductivity_after": {"type": "number"},
+        "temperature_c_after": {"type": "number"},
+        "spectroscopy_reference": {"type": "string"},
+        "photo_ids": {"type": "array", "items": {"type": "string"}},
+        "audio_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "observations": {
+      "type": "object",
+      "properties": {
+        "visual_notes": {"type": "string"},
+        "sensory_notes": {"type": "string"},
+        "plant_or_bio_response_notes": {"type": "string"},
+        "anomalies": {"type": "string"},
+        "interpretation": {"type": "string"},
+        "caution": {"type": "string", "default": "Exploratory observation only. Do not infer causality without controls and replication."}
+      }
+    }
+  }
+}
