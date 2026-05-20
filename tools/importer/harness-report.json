@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-20T22:13:05.283Z",
+    "primary_files_loaded": [
+      "data/codex-index.json",
+      "data/body-region-schema.json",
+      "data/frequency-library.json",
+      "data/frequency-validation.json",
+      "data/temporal-frequency-planner.json",
+      "data/instrument-frequency-practice-matrix.csv",
+      "data/illustration-plate-catalog.json",
+      "data/arbp-protocol-schema.json",
+      "templates/arbp-experiment-log.csv"
+    ]
+  },
+  "joinValidation": {
+    "bodyRegionMissing": {
+      "title": "codex-index.body_regions -> body-region-schema.regions[id] mismatches",
+      "count": 0,
+      "items": []
+    },
+    "frequencyValidationMissing": {
+      "title": "codex-index.frequency_links_hz -> frequency-validation.frequencies[].hz missing records",
+      "count": 5,
+      "items": [
+        {
+          "app_id": "004",
+          "slug": "tensegrity",
+          "hz": 3,
+          "issue": "missing_frequency_validation_record"
+        },
+        {
+          "app_id": "008",
+          "slug": "piezoelectricity",
+          "hz": 80,
+          "issue": "missing_frequency_validation_record"
+        },
+        {
+          "app_id": "008",
+          "slug": "piezoelectricity",
+          "hz": 250,
+          "issue": "missing_frequency_validation_record"
+        },
+        {
+          "app_id": "009",
+          "slug": "fascial-innervation",
+          "hz": 100,
+          "issue": "missing_frequency_validation_record"
+        },
+        {
+          "app_id": "009",
+          "slug": "fascial-innervation",
+          "hz": 300,
+          "issue": "missing_frequency_validation_record"
+        }
+      ]
+    },
+    "illustrationPlateMissing": {
+      "title": "codex-index.illustration_links -> illustration-plate-catalog.plates[id] mismatches",
+      "count": 0,
+      "items": []
+    },
+    "hzTypeRoundingIssues": {
+      "title": "hz type/rounding issues (matched only after normalization)",
+      "count": 0,
+      "items": []
+    }
+  },
+  "plannerValidation": {
+    "missingPlannerHz": {
+      "title": "temporal-frequency-planner.recommended_hz -> frequency-validation missing records",
+      "count": 1,
+      "items": [
+        {
+          "planner_id": "deep_night",
+          "recommended_hz": 3,
+          "issue": "missing_frequency_validation_record"
+        }
+      ]
+    },
+    "plannerHzTypeRoundingIssues": {
+      "title": "planner hz type/rounding issues (matched only after normalization)",
+      "count": 0,
+      "items": []
+    }
+  },
+  "samplePlannerRowDegradation": {
+    "planner_row_id": "pre_dawn",
+    "rendered": {
+      "planner_id": "pre_dawn",
+      "time_of_day": "Pre-dawn (4–6am)",
+      "boundary_note": "Use as symbolic long-cycle meditation timing; not a cosmic correction frequency.",
+      "prompt_skeleton": {
+        "practice_type": "Silent meditation",
+        "instrument_suggestion": "None / Digital drone",
+        "duration_min": 30,
+        "chakra_focus": "Crown",
+        "body_region_ids": [
+          "crown_head",
+          "full_body_lines"
+        ],
+        "codex_links": [
+          "004",
+          "010"
+        ],
+        "lunar_phase_modifier": "New Moon: deepen silence"
+      },
+      "frequency_claim": {
+        "hz": 172.06,
+        "frequency_name": "Platonic Year",
+        "validation_status": [
+          "supplemental_library_value",
+          "symbolic_correspondence"
+        ],
+        "app_safe_wording": "Used as a long-cycle symbolic correspondence for meditation and crown/root integration; corresponds to a 25,920-year convention, not a fixed universal constant."
+      }
+    }
+  }
+}

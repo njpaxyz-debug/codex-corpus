@@ -2,7 +2,71 @@
 
 Canonical GitHub corpus for the TechnoBioFascia / Resonance / ARBP research constellation.
 
-This repository preserves the project’s Drive-based research artifacts in a versioned, repo-friendly structure. It is not a single app repo. It is the source corpus that downstream tools can read from: the Resonance Codex Companion, future body-map interfaces, frequency planners, ARBP notebooks, illustration systems, and related dashboards.
+This repository preserves the project’s Drive-based research artifacts in a versioned, repo-friendly structure. It is **not** a single app repo: it is the **source corpus** that downstream tools can import from (Codex Companion, resonance planner UIs, frequency planners, ARBP log UIs, illustration prompt systems, etc.).
+
+> **Evidence boundary:** this repo contains reference notes, somatic practice design, symbolic/traditional correspondence, and speculative experiment frameworks. It is **not** a medical/therapeutic product.
+
+## Quick start (what to run)
+
+### 1) Use the corpus as data
+Downstream apps should import from these primary files (see `docs/APP_IMPORT_GUIDE.md`):
+
+- `data/codex-index.json` — Codex navigation spine
+- `data/body-region-schema.json` — body regions + practice links
+- `data/frequency-library.json` — frequencies and correspondences
+- `data/frequency-validation.json` — which frequency renderings are safe
+- `data/temporal-frequency-planner.json` — time-of-day/ritual frequency prescription
+- `data/instrument-frequency-practice-matrix.csv` — instrument ↔ frequency ↔ practice matrix
+- `data/illustration-plate-catalog.json` — illustration plate IDs and links
+- `data/arbp-protocol-schema.json` — ARBP log schema
+- `templates/arbp-experiment-log.csv` — starter ARBP log export template
+
+### 2) Validate joins + rendering policy (the “abilities” harness)
+The repo includes a Node harness that checks whether the app-facing indexes join correctly and whether the planner can be rendered without unsafe frequency claims.
+
+Run:
+
+```bash
+node tools/importer/harness.mjs --report
+```
+
+This writes:
+- `tools/importer/harness-report.json`
+
+### 3) Inspect claim boundaries
+- `docs/CLAIM_LABELS.md` — label set + required boundaries
+- `data/frequency-validation.json` — avoid/blocked wording constraints
+
+## Codespaces / repo startup
+
+This repo is intended to be opened in GitHub Codespaces or any VS Code dev environment that has **Node.js** available.
+
+### Minimal prerequisites
+
+- Node.js (tested on Node `v24.x`)
+
+### Recommended: open the repo and use the importer harness
+
+1. Open the repo in Codespaces.
+2. In the terminal, run:
+
+```bash
+node tools/importer/harness.mjs --report
+```
+
+3. Review the output:
+- `tools/importer/harness-report.json`
+
+### What the harness checks (“repo abilities”)
+
+The harness loads the primary app-facing JSON/CSV assets and validates join integrity:
+
+- Codex entry body-region IDs resolve in `data/body-region-schema.json`.
+- Codex entry frequency links resolve in `data/frequency-validation.json`.
+- Codex illustration links resolve in `data/illustration-plate-catalog.json`.
+- Temporal planner rows’ `recommended_hz` resolve in `data/frequency-validation.json`.
+- If a planner row’s `recommended_hz` has no validation record, the harness applies a **graceful degradation policy** and suppresses any frequency claim.
+
 
 ## Current migration checkpoint
 
@@ -21,6 +85,7 @@ This repo currently migrates and indexes the following Drive source set:
 4. **Daily Practice Interface — Design Specification**
 5. **ARBP.txt — Aqua-Resonance Bio-Programming framework**
 6. **Scientific Illustration Series — Style Guide references**
+
 
 ## Repository structure
 
@@ -71,6 +136,7 @@ codex-corpus/
 ## Evidence boundary
 
 The corpus combines several knowledge categories:
+
 
 - anatomy / biophysics reference notes
 - somatic practice design language
