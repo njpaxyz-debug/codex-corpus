@@ -1,9 +1,21 @@
-# 001 — Fascia: The Body's Undernet
+---
+app_id: "001"
+source_plan_id: "001"
+slug: "fascia"
+title: "Fascia: The Body's Undernet"
+tags: ["TBFC", "MM", "SCI"]
+status: "migrated_summary"
+evidence_labels: ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"]
+boundary_note: "Anatomical and somatic-practice framing. Not diagnostic and not medical advice."
+core_thesis: "Fascia is the continuous tensional network that gives every other system its shape, its address, and its voice."
+body_regions: ["heart_chest", "full_body_lines"]
+frequency_links_hz: [136.1, 432]
+practice_gate: "Fascial hydration: slow joint circles, warm breath, gentle tissue glide, no forcing."
+illustration_links: ["plate_i_fascial_architecture_composite"]
+source_files: ["TechnoBioFasciaCodex v0.1", "Scientific Illustration Series Style Guide"]
+---
 
-**Domain:** Connective Architecture  
-**Tags:** `TBFC`, `MM`, `SCI`  
-**Status:** migrated summary; full source extraction pending  
-**Evidence labels:** `BIOPHYSICAL`, `ANATOMICAL`, `PRACTICE_BASED`
+# 001 — Fascia: The Body's Undernet
 
 ## Core Thesis
 
@@ -58,3 +70,4 @@ Drive ID: `1xwhXoJN8fETeVpSI1pKMtnYBXNWJd9o2`
 - Frequency links: 136.1 Hz, 432 Hz
 - Planner role: general somatic orientation and tissue-hydration gate
 - Illustration plate potential: fascial layers cross-section, collagen hierarchy
+

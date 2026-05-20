@@ -1,9 +1,21 @@
-# 003 — Myofascial Meridians: Where Anatomy Trains Meet Energy Lines
+---
+app_id: "003"
+source_plan_id: "029"
+slug: "myofascial-meridians"
+title: "Myofascial Meridians: Where Anatomy Trains Meet Energy Lines"
+tags: ["TBFC", "MM", "RPG", "SCI"]
+status: "migrated_summary"
+evidence_labels: ["ANATOMICAL", "TRADITIONAL", "PRACTICE_BASED"]
+boundary_note: "Overlay map only. Anatomy Trains, meridian, chakra, and symbolic systems are not identical and should not be collapsed into one factual structure."
+core_thesis: "Different body maps can be overlaid as navigational systems without pretending they are identical."
+body_regions: ["throat_neck", "full_body_lines"]
+frequency_links_hz: [210.42, 741]
+practice_gate: "Trace one body line slowly with attention, then journal the region that felt most available."
+illustration_links: ["plate_ii_meridian_pathway_bloom", "plate_x_myofascial_meridians_superficial_back_line", "plate_xi_myofascial_meridians_superficial_front_line"]
+source_files: ["TechnoBioFasciaCodex v0.1", "Scientific Illustration Series Style Guide"]
+---
 
-**Domain:** Cartographic Systems  
-**Tags:** `TBFC`, `MM`, `RPG`, `SCI`  
-**Status:** migrated summary; full source extraction pending  
-**Evidence labels:** `ANATOMICAL`, `TRADITIONAL`, `PRACTICE_BASED`
+# 003 — Myofascial Meridians: Where Anatomy Trains Meet Energy Lines
 
 ## Core Thesis
 
@@ -11,42 +23,43 @@ Different body maps can be overlaid as navigational systems without pretending t
 
 ## Biological Ground
 
-This entry compares anatomical continuity maps, such as myofascial chains and Anatomy Trains-style lines, with traditional energetic mapping systems such as TCM meridians, nadis, and related body cartographies.
+The Codex treats “myofascial meridians” as a map overlay approach: anatomical trains (movement/tension continuities) can be paired with traditional meridian line concepts as a wayfinding tool, not as a claim that two traditions describe the same underlying structure.
 
-The repo interpretation is cartographic: each system is a map with its own coordinate logic, not a one-to-one anatomical equivalence claim.
+This entry emphasizes:
+
+- overlay map utility
+- explicit boundary between anatomical and symbolic systems
+- practical attention and journaling as the outcome of practice
 
 ## Technological Mirror
 
-Network topology / layered mapping / GIS overlay.
+Mapping layer:
 
-Different maps can describe the same territory through different abstractions. The useful work is to preserve each layer's rules while looking for functional overlap.
+- choose a body-line overlay
+- align attention to the overlay
+- observe self-sensation changes
 
 ## Practice Gate
 
-Line-tracing body scan:
-
-1. Choose one body line or region.
-2. Trace it physically with the hand or mentally with attention.
-3. Notice zones of heat, dullness, sensation, or discontinuity.
-4. Do not diagnose; simply map.
-5. Journal the region that felt most available.
+1. Choose one body line.
+2. Trace it slowly with attention.
+3. Journal the region that feels most available or responsive.
 
 ## Cross-References
 
-- `001 — Fascia`
-- `012 — Proprioception`
-- `030 — Traditional Meridian Systems`
-- `033 — Fascial Force Transmission Lines`
-- `036 — The Unified Field Map`
+- `001 — Fascia: The Body's Undernet`
+- `002 — Mechanotransduction`
+- `010 — Interstitium: The Organ That Wasn't`
 
 ## Source Stratum
 
 Primary Drive source: `TechnoBioFasciaCodex v0.1 — Living Reference.pdf`  
-Drive ID: `1xwhXoJN8fETeVpSI1pKMtnYBXNWJd9o2`
+Drive ID: `1xwhXoJN8fETeVpSI1pKMtnYBXNWJd9o2` 
 
 ## App Integration Notes
 
-- Body map regions: throat, whole body, body lines
-- Frequency links: 210.42 Hz, 741 Hz
-- Planner role: body-map overlay and tap-to-reveal region interpretation
-- Illustration plate potential: layered meridian/fascial overlay plate
+- Body map regions: throat/neck emphasis + full-body line tracing
+- Frequency links: 210.42 Hz (practice association) and 741 Hz (practice association)
+- Planner role: guided attention + journaling
+- Illustration plate potential: meridian pathway bloom + superficial line renders
+

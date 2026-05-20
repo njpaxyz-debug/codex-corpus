@@ -1,62 +1,58 @@
-# 007 — Collagen Architecture: Cables of the Living Bridge
+---
+app_id: "007"
+source_plan_id: "004"
+slug: "collagen-architecture"
+title: "Collagen Architecture: Cables of the Living Bridge"
+tags: ["TBFC", "SCI", "ARG"]
+status: "next_pass_expansion_draft"
+evidence_labels: ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"]
+boundary_note: "Collagen hierarchy is anatomical/biophysical; slow-load practice is self-observation and not tissue remodeling advice."
+core_thesis: "Collagen is not merely structural filler; it is the body's hierarchical cable system, scaling from molecular helix to whole-body force architecture."
+body_regions: ["full_body_lines", "legs_root", "arms_hands"]
+frequency_links_hz: [40, 136.1, 194.18]
+practice_gate: "Apply a slow, low-force line stretch and track continuity without bouncing or forcing."
+illustration_links: ["plate_i_fascial_architecture_composite", "plate_v_extracellular_matrix_landscape"]
+source_files: ["TechnoBioFasciaCodex v0.1", "Scientific Illustration Series Style Guide"]
+---
 
-**Domain:** Connective Architecture  
-**Tags:** `TBFC`, `SCI`, `ARG`  
-**Status:** next-pass expansion draft  
-**Evidence labels:** `BIOPHYSICAL`, `ANATOMICAL`, `PRACTICE_BASED`
+# 007 — Collagen Architecture: Cables of the Living Bridge
 
 ## Core Thesis
 
-Collagen is not merely structural filler; it is the body’s hierarchical cable system, scaling from molecular helix to whole-body force architecture.
+Collagen is not merely structural filler; it is the body's hierarchical cable system, scaling from molecular helix to whole-body force architecture.
 
 ## Biological Ground
 
-Collagen is the major tensile protein of connective tissue. In the Codex model, collagen architecture is treated as a multi-scale bridge:
+Collagen hierarchy is treated as a scaling structure:
 
-```text
-amino acid chains → triple helix → tropocollagen → fibril → fiber → fascicle → fascial sheet → whole-body line
-```
+- amino acid chains → triple helix → tropocollagen → fibril → fiber → fascicle → fascial sheet → whole-body line
 
-Type I collagen forms strong bundled fibers that resist tensile load. Type III collagen provides finer reticular support. Type VI participates in microfibrillar matrix organization. Type XII helps organize and stabilize larger collagen networks. This hierarchy allows tissue to be both locally specific and systemically continuous.
-
-Collagen’s relevance to the Codex is threefold:
-
-1. **Mechanical:** it bears and distributes tensile force.
-2. **Architectural:** it forms layered scaffolds across tissue scales.
-3. **Signal-bearing:** deformation of collagen-rich tissues can participate in mechanotransduction and electrical phenomena such as piezoelectric potentials.
+This entry keeps practice language strictly framed as self-observation.
 
 ## Technological Mirror
 
-Suspension bridge / braided cable / fiber-optic trunk.
-
-Collagen behaves like a living cable system. Its strength comes not from a single strand but from hierarchical bundling, cross-linking, orientation, and load distribution.
+Cable hierarchy + force continuity.
 
 ## Practice Gate
 
-Collagen-line awareness:
-
-1. Choose a long body line, such as heel-to-back-body-to-scalp or palm-to-chest.
-2. Apply slow, low-force stretch without bouncing.
-3. Wait for tissue creep rather than muscular strain.
-4. Track where the line feels continuous and where it feels interrupted.
-5. Journal the pathway, not the “problem.”
+1. Choose a line of continuity.
+2. Apply a slow, low-force stretch.
+3. Track continuity without bouncing.
 
 ## Cross-References
 
-- `001 — Fascia`
-- `004 — Tensegrity`
+- `001 — Fascia: The Body's Undernet`
 - `005 — Extracellular Matrix`
-- `008 — Piezoelectricity of Bone and Connective Tissue`
-- `015 — The Fascial Nerve Web`
+- `006 — Ground Substance`
 
 ## Source Stratum
 
-Primary source layer: TBFC planned entry map + April 2026 sprint continuation.  
-Evidence status: anatomical/biophysical reference with practice extrapolation.
+Primary source layer: TBFC planned entry map + collagen architecture references.
 
 ## App Integration Notes
 
-- Body map regions: fascial lines, tendons, sheets, whole body
-- Frequency links: 40 Hz, 136.1 Hz, 194.18 Hz as practice associations only
-- Planner role: connective-line awareness and slow-load practice
-- Illustration plate potential: collagen hierarchy scale cascade
+- Body map regions: full-body lines, legs/root emphasis, arms/hands emphasis
+- Frequency links: 40 Hz, 136.1 Hz, 194.18 Hz (practice associations)
+- Planner role: slow-load continuity practice + journaling
+- Illustration plate potential: fascial architecture composite + ECM landscape
+

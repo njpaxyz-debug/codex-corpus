@@ -1,51 +1,63 @@
-# 005 — Extracellular Matrix: The Body's Living Scaffold
+---
+app_id: "005"
+source_plan_id: "003"
+slug: "extracellular-matrix"
+title: "Extracellular Matrix: The Body's Living Scaffold"
+tags: ["TBFC", "ARG", "SCI"]
+status: "migrated_summary"
+evidence_labels: ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"]
+boundary_note: "Anatomical/scaffold framing with self-observation only. No treatment claims."
+core_thesis: "The ECM is a biochemical and mechanical field surrounding cells."
+body_regions: ["solar_core", "full_body_lines"]
+frequency_links_hz: [432, 285]
+practice_gate: "Gently lift and roll superficial skin/fascia where comfortable; compare texture before and after."
+illustration_links: ["plate_v_extracellular_matrix_landscape"]
+source_files: ["Unified Creative Execution Plan", "Scientific Illustration Series Style Guide"]
+---
 
-**Domain:** Connective Architecture  
-**Tags:** `TBFC`, `ARG`, `SCI`  
-**Status:** migrated summary from April 2026 sprint notes; full source expansion pending  
-**Evidence labels:** `BIOPHYSICAL`, `ANATOMICAL`, `PRACTICE_BASED`
+# 005 — Extracellular Matrix: The Body's Living Scaffold
 
 ## Core Thesis
 
-The extracellular matrix is a biochemical and mechanical field surrounding cells.
+The ECM is a biochemical and mechanical field surrounding cells.
 
 ## Biological Ground
 
-The extracellular matrix is described as the living scaffold around cells: a dynamic environment of fibrous proteins, glycoproteins, proteoglycans, glycosaminoglycans, hydration, and mechanical signaling.
+In Codex framing, the extracellular matrix is treated as both:
 
-Sprint notes emphasize collagen types, fibronectin, laminin, integrin-mediated mechanotransduction, and the influence of matrix stiffness on cell behavior.
+- a biochemical environment
+- a mechanical field
+
+This entry stays anchored to anatomical and self-observation language.
 
 ## Technological Mirror
 
-Cloud infrastructure / cellular environment / platform layer.
+Biochemical + mechanical field:
 
-The ECM is the local world in which cells operate. Like infrastructure, it determines what signals are possible, what movement is supported, and what forms can emerge.
+- surrounding medium
+- mechanical properties
+- interaction surfaces
 
 ## Practice Gate
 
-Superficial tissue comparison:
-
-1. Choose a comfortable patch of skin or superficial fascia.
-2. Gently lift or roll the tissue without pinching aggressively.
-3. Notice mobility, thickness, temperature, and texture.
-4. Compare left/right or before/after.
-5. Do not interpret sensation as diagnosis.
+1. Choose a comfortable region.
+2. Gently lift/roll superficial skin/fascia.
+3. Compare texture before and after without forcing.
 
 ## Cross-References
 
-- `001 — Fascia`
-- `002 — Mechanotransduction`
-- `004 — Tensegrity`
 - `006 — Ground Substance`
+- `007 — Collagen Architecture: Cables of the Living Bridge`
+- `010 — Interstitium: The Organ That Wasn't`
 
 ## Source Stratum
 
-Primary Drive source: `Unified Creative Execution Plan - April 2026 (1).docx`  
-Drive ID: `1ShQZ0uYcPTByBNteJX2v3XYr3hzWsSDN`
+Primary source layer: Unified Creative Execution Plan + Scientific Illustration Series Style Guide references.
 
 ## App Integration Notes
 
-- Body map regions: core, skin, superficial fascia
-- Frequency links: 432 Hz, 285 Hz
-- Planner role: tactile ECM awareness and skin-rolling gate
-- Illustration plate potential: ECM landscape, collagen/proteoglycan/fibroblast terrain
+- Body map regions: solar core + full-body lines
+- Frequency links: 432 Hz, 285 Hz (practice associations)
+- Planner role: gentle texture comparison + journaling
+- Illustration plate potential: ECM landscape render
+

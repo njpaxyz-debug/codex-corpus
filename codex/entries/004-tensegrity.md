@@ -1,9 +1,21 @@
-# 004 — Tensegrity: The Architecture of Aliveness
+---
+app_id: "004"
+source_plan_id: "002"
+slug: "tensegrity"
+title: "Tensegrity: The Architecture of Aliveness"
+tags: ["TBFC", "SCI", "RPG"]
+status: "migrated_summary"
+evidence_labels: ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"]
+boundary_note: "Useful structural model and practice metaphor. Do not use as a diagnostic or universal explanation for pain."
+core_thesis: "Living posture behaves less like stacked blocks and more like compression elements suspended in tension."
+body_regions: ["crown_head", "legs_root", "full_body_lines"]
+frequency_links_hz: [172.06, 3]
+practice_gate: "Stand tall with soft knees; imagine bones floating inside a tension web."
+illustration_links: ["plate_iv_tensegrity_cell_architecture", "plate_vii_biotensegrity_full_body"]
+source_files: ["Unified Creative Execution Plan", "TechnoBioFasciaCodex v0.1"]
+---
 
-**Domain:** Connective Architecture  
-**Tags:** `TBFC`, `SCI`, `RPG`  
-**Status:** migrated summary from April 2026 sprint notes; full source expansion pending  
-**Evidence labels:** `BIOPHYSICAL`, `ANATOMICAL`, `PRACTICE_BASED`
+# 004 — Tensegrity: The Architecture of Aliveness
 
 ## Core Thesis
 
@@ -11,41 +23,40 @@ Living posture behaves less like stacked blocks and more like compression elemen
 
 ## Biological Ground
 
-Tensegrity describes structures in which compression elements are held in a continuous tension network. In the Codex, this becomes a way to understand bones, muscles, fascia, cells, cytoskeleton, posture, and distributed load.
+Tensegrity is used in the Codex as a structural framing model for whole-body support patterns: tension components and compression elements can be imagined as network relationships rather than rigid blocks.
 
-The sprint notes connect this entry to Buckminster Fuller, Kenneth Snelson, Donald Ingber’s cellular tensegrity hypothesis, and multi-scale biological organization from molecular to whole-body levels.
+This entry is explicitly practice-metaphor oriented; it is not treated as a universal pain explanation.
 
 ## Technological Mirror
 
-Distributed computing / tensegrity robotics / NASA Super Ball Bot style architecture.
+Engineering structure model:
 
-The useful mirror is distributed resilience: no single pillar carries all meaning or weight. Structural intelligence emerges from the relationship among parts.
+- tension elements
+- compression elements
+- network-level stability
 
 ## Practice Gate
 
-Standing tensegrity awareness:
+Stand tall with soft knees:
 
-1. Stand with soft knees.
-2. Press palms together lightly.
-3. Let the spine lengthen without rigid bracing.
-4. Imagine bones floating within a tension web.
-5. Notice how tiny shifts in one area change the whole structure.
+1. Allow the arches of attention to lift.
+2. Imagine bones floating inside a web of tension.
+3. Feel posture as balanced support, not effort.
 
 ## Cross-References
 
-- `001 — Fascia`
-- `005 — Extracellular Matrix`
-- `006 — Ground Substance`
-- `007 — Biotensegrity in Architecture and Engineering`
+- `001 — Fascia: The Body's Undernet`
+- `002 — Mechanotransduction`
+- `007 — Collagen Architecture: Cables of the Living Bridge`
 
 ## Source Stratum
 
-Primary Drive source: `Unified Creative Execution Plan - April 2026 (1).docx`  
-Drive ID: `1ShQZ0uYcPTByBNteJX2v3XYr3hzWsSDN`
+Primary source layer: Unified Creative Execution Plan + TBFC v0.1 framing.
 
 ## App Integration Notes
 
-- Body map regions: head, spine, legs, full body
-- Frequency links: 172.06 Hz, 3 Hz
-- Planner role: Calibrate-phase body scan and posture gate
-- Illustration plate potential: full-body tensegrity figure, cell tensegrity architecture
+- Body map regions: crown/head, legs/root, full-body lines
+- Frequency links: 172.06 Hz and 3 Hz as practice associations
+- Planner role: posture scaffolding + network-imagination breathing
+- Illustration plate potential: tensegrity cell architecture + biotensegrity full-body render
+

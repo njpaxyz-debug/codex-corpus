@@ -1,9 +1,21 @@
-# 010 — Interstitium: The Organ That Wasn't
+---
+app_id: "010"
+source_plan_id: "010"
+slug: "interstitium"
+title: "Interstitium: The Organ That Wasn't"
+tags: ["TBFC", "SCI", "ARG"]
+status: "next_pass_expansion_draft"
+evidence_labels: ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED", "CONTESTED_BOUNDARY"]
+boundary_note: "Use precise fluid-space and connective-tissue language. Avoid sensational hidden-organ or treatment claims."
+core_thesis: "The interstitium reframes connective tissue as a fluid-filled continuity: not empty space between structures, but a distributed environment of flow, pressure, and exchange."
+body_regions: ["pelvis_sacral", "solar_core", "full_body_lines"]
+frequency_links_hz: [210.42, 432]
+practice_gate: "Use fluid-continuity breathing and pressure awareness; observe without trying to force a result."
+illustration_links: ["plate_ix_interstitium"]
+source_files: ["TechnoBioFasciaCodex v0.1", "Scientific Illustration Series Style Guide"]
+---
 
-**Domain:** Connective Architecture / Fluid Systems  
-**Tags:** `TBFC`, `SCI`, `ARG`  
-**Status:** next-pass expansion draft  
-**Evidence labels:** `BIOPHYSICAL`, `ANATOMICAL`, `PRACTICE_BASED`, `CONTESTED_BOUNDARY`
+# 010 — Interstitium: The Organ That Wasn't
 
 ## Core Thesis
 
@@ -58,3 +70,4 @@ Evidence status: anatomical/fluid-system framing with careful interpretive bound
 - Frequency links: 210.42 Hz as lunar/water association only; 432 Hz as relaxation association only
 - Planner role: night/evening body scan, hydration journaling, fluid-awareness practice
 - Illustration plate potential: Plate IX — The Interstitium
+

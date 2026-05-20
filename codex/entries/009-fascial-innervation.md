@@ -1,9 +1,21 @@
-# 009 — Fascial Innervation: The Sensory Web
+---
+app_id: "009"
+source_plan_id: "009"
+slug: "fascial-innervation"
+title: "Fascial Innervation: The Sensory Web"
+tags: ["TBFC", "MM", "ARG", "SCI"]
+status: "next_pass_expansion_draft"
+evidence_labels: ["BIOPHYSICAL", "ANATOMICAL", "PRACTICE_BASED"]
+boundary_note: "Fascial sensation can be tracked, but sensation logs are not diagnosis."
+core_thesis: "Fascia is not passive wrapping; it is a richly innervated sensory field that helps the body detect pressure, stretch, vibration, pain, and position."
+body_regions: ["arms_hands", "heart_chest", "full_body_lines"]
+frequency_links_hz: [40, 100, 300]
+practice_gate: "Map light, medium, and sustained pressure sensations; stop if the signal becomes sharp or alarming."
+illustration_links: ["plate_iii_fascia_nerve_interface"]
+source_files: ["TechnoBioFasciaCodex v0.1", "Scientific Illustration Series Style Guide"]
+---
 
-**Domain:** Signal & Sensation  
-**Tags:** `TBFC`, `MM`, `ARG`, `SCI`  
-**Status:** next-pass expansion draft  
-**Evidence labels:** `BIOPHYSICAL`, `ANATOMICAL`, `PRACTICE_BASED`
+# 009 — Fascial Innervation: The Sensory Web
 
 ## Core Thesis
 
@@ -11,49 +23,34 @@ Fascia is not passive wrapping; it is a richly innervated sensory field that hel
 
 ## Biological Ground
 
-Fascial tissues contain multiple sensory elements, including free nerve endings and mechanoreceptors. The Codex treats fascia as part of the body’s sensory web, especially relevant to proprioception, interoception, nociception, manual therapy, movement practice, and vibration response.
-
-Important receptor categories for the app-facing corpus:
-
-- **Free nerve endings** — pain, temperature, chemical and mechanical irritation.
-- **Ruffini endings** — sustained pressure and stretch.
-- **Pacinian corpuscles** — rapid vibration and pressure change.
-- **Golgi-related mechanosensory structures** — tension/load context.
-
-The key claim boundary: fascial sensation can be observed and trained, but sensation alone is not diagnosis.
+This entry frames innervation as a sensory input layer for connective tissue awareness.
 
 ## Technological Mirror
 
-Distributed sensor mesh / haptic interface / pressure map.
-
-Fascia behaves like a network of embedded sensors that report mechanical state to the nervous system. It is not only cable and fabric; it is also interface.
+Sensor web / high-resolution tactile and proprioceptive input network.
 
 ## Practice Gate
 
-Pressure-sensation map:
+Pressure mapping:
 
-1. Choose a broad, comfortable region such as forearm, calf, chest, or foot.
-2. Apply light, medium, then sustained pressure.
-3. Pause after each pressure level.
-4. Name the signal quality: pressure, warmth, vibration, stretch, ache, numbness, ease.
-5. Stop immediately if the signal becomes sharp, alarming, or unpleasant.
+1. Apply light pressure and note sensation.
+2. Apply medium pressure and note sensation.
+3. Apply sustained pressure for a short interval and track changes.
+4. Stop if the signal becomes sharp or alarming.
 
 ## Cross-References
 
-- `001 — Fascia`
-- `002 — Mechanotransduction`
-- `003 — Myofascial Meridians`
-- `016 — Vibrotactile Perception`
-- `020 — The Nerve-Fascia Interface`
+- `001 — Fascia: The Body's Undernet`
+- `008 — Piezoelectricity of Bone and Connective Tissue`
 
 ## Source Stratum
 
-Primary source layer: TBFC planned entry map + first-entry discussion of fascial innervation.  
-Evidence status: anatomical/biophysical with practice-based integration.
+Primary source layer: TBFC planned entry map + sensory interface framing.
 
 ## App Integration Notes
 
-- Body map regions: skin, superficial fascia, thoracolumbar fascia, hands, feet
-- Frequency links: 40 Hz, 100–300 Hz vocal/thoracic phonation range where relevant
-- Planner role: body-scan specificity, receptor education, pressure/vibration caution
-- Illustration plate potential: Plate III extension — Fascia-Nerve Interface
+- Body map regions: arms/hands, heart/chest, full-body lines
+- Frequency links: 40 Hz, 100 Hz, 300 Hz (practice associations)
+- Planner role: sensory mapping + journaling
+- Illustration plate potential: fascia/nerve interface
+
