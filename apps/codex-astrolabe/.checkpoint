@@ -1,1 +1,2 @@
-Codex Astrolabe app import started on 2026-05-21.
+Codex Astrolabe app import finished on 2026-05-21.
+Open apps/codex-astrolabe and run npm install, npm run verify, then npm run dev.
