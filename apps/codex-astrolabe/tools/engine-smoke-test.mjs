@@ -1,0 +1,2 @@
+import assert from'node:assert/strict';import{balanced,includes,metrics,norm,star,validate}from'../src/lib.js';
+const m=metrics(balanced(50),100);assert.equal(m.balance,0);assert.equal(m.mag,0);const g=star(100);assert.equal(Math.round(g.a*1000)/1000,141.421);assert.equal(g.vCube,1_000_000);assert.equal(norm('Aéther Signal'),'aether signal');assert.equal(includes({direction:'North'},'north'),true);assert.equal(validate().ok,true);console.log('Engine smoke tests passed.');
