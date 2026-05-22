@@ -1,0 +1,2 @@
+import React,{useMemo,useState}from'react';import{star,round}from'../lib.js';import{Badge,Metric,Panel}from'../ui.jsx';
+export function Geometry(){const[side,setSide]=useState(100),g=useMemo(()=>star(side),[side]);return <Panel><Badge>Geometry</Badge><h2>Geometry Calculator</h2><label><small>Cube side</small><input className="input" type="number" value={side} onChange={e=>setSide(e.target.value)}/></label><div className="grid">{Object.entries(g).map(([k,v])=><Metric key={k} label={k} value={round(v,3)}/>)}</div></Panel>}
